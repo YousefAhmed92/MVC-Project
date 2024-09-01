@@ -1,0 +1,15 @@
+C:\Users\youse\source\repos\Company.Web\company.repo\bin\Debug\net8.0\company.repo.deps.json
+C:\Users\youse\source\repos\Company.Web\company.repo\bin\Debug\net8.0\company.repo.dll
+C:\Users\youse\source\repos\Company.Web\company.repo\bin\Debug\net8.0\company.repo.pdb
+C:\Users\youse\source\repos\Company.Web\company.repo\bin\Debug\net8.0\Company.Data.dll
+C:\Users\youse\source\repos\Company.Web\company.repo\bin\Debug\net8.0\Company.Data.pdb
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.csproj.AssemblyReference.cache
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.AssemblyInfoInputs.cache
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.AssemblyInfo.cs
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company..F9B67CF9.Up2Date
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.dll
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\refint\company.repo.dll
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.pdb
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\ref\company.repo.dll

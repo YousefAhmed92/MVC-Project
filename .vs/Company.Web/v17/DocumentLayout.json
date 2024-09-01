@@ -1,0 +1,437 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\youse\\source\\repos\\Company.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CEDB0D-303A-4FB5-BEE9-CD1C9DFACE31}|company.services\\company.services.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.services\\company.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00CEDB0D-303A-4FB5-BEE9-CD1C9DFACE31}|company.services\\company.services.csproj|solutionrelative:company.services\\company.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\interface\\iemployeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\repo\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\repo\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\repo\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\repo\\employeerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\interface\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\interface\\idepartmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\repo\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\interface\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\interface\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\context\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\context\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.repo\\company.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F29BE99-83E4-4C60-9868-201DD832C1A0}|company.repo\\company.repo.csproj|solutionrelative:company.repo\\company.repo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.app\\company.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EB126D0A-E3F5-42B7-8754-05784B4F25D3}|Company.app\\Company.app.csproj|solutionrelative:company.app\\company.app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\migrations\\20240831174239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\migrations\\20240831174239_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\context\\configuration\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\context\\configuration\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\context\\configuration\\employeesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\context\\configuration\\employeesconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\company.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\company.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.data\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB972AB-DC6E-427D-B269-0B3AD7305AC1}|Company.Data\\Company.Data.csproj|solutionrelative:company.data\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00CEDB0D-303A-4FB5-BEE9-CD1C9DFACE31}|company.services\\company.services.csproj|c:\\users\\youse\\source\\repos\\company.web\\company.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00CEDB0D-303A-4FB5-BEE9-CD1C9DFACE31}|company.services\\company.services.csproj|solutionrelative:company.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Company.app\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Company.app\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-01T17:40:41.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Company.app\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Company.app\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T22:56:11.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Company.app\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Company.app\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T22:35:29.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Company.app\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\appsettings.Development.json",
+              "RelativeToolTip": "Company.app\\appsettings.Development.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T22:34:51.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Company.app\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Company.app\\Views\\Department\\Index.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T20:21:17.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Company.app\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Company.app\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T20:04:58.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Repo\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\GenericRepo.cs",
+              "RelativeToolTip": "company.repo\\Repo\\GenericRepo.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:42:38.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IGenericRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Interface\\IGenericRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IGenericRepo.cs",
+              "RelativeToolTip": "company.repo\\Interface\\IGenericRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:40:45.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepartmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\DepartmentRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Repo\\DepartmentRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\DepartmentRepo.cs",
+              "RelativeToolTip": "company.repo\\Repo\\DepartmentRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:36:44.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDepartmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IDepartmentRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Interface\\IDepartmentRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IDepartmentRepo.cs",
+              "RelativeToolTip": "company.repo\\Interface\\IDepartmentRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T19:34:52.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\EmployeeRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Repo\\EmployeeRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Repo\\EmployeeRepo.cs",
+              "RelativeToolTip": "company.repo\\Repo\\EmployeeRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:54:32.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IEmployeeRepo.cs",
+              "RelativeDocumentMoniker": "company.repo\\Interface\\IEmployeeRepo.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\Interface\\IEmployeeRepo.cs",
+              "RelativeToolTip": "company.repo\\Interface\\IEmployeeRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:51:28.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240831174239_init.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Migrations\\20240831174239_init.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Migrations\\20240831174239_init.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Migrations\\20240831174239_init.cs",
+              "RelativeToolTip": "Company.Data\\Migrations\\20240831174239_init.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T17:42:39.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Company.app.csproj",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Company.app.csproj",
+              "RelativeDocumentMoniker": "Company.app\\Company.app.csproj",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Company.app.csproj",
+              "RelativeToolTip": "Company.app\\Company.app.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-31T17:09:44.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepartmentConfig.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\Configuration\\DepartmentConfig.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Context\\Configuration\\DepartmentConfig.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\Configuration\\DepartmentConfig.cs",
+              "RelativeToolTip": "Company.Data\\Context\\Configuration\\DepartmentConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T16:56:41.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeesConfig.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\Configuration\\EmployeesConfig.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Context\\Configuration\\EmployeesConfig.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\Configuration\\EmployeesConfig.cs",
+              "RelativeToolTip": "Company.Data\\Context\\Configuration\\EmployeesConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T16:56:25.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\appsettings.json",
+              "RelativeDocumentMoniker": "Company.app\\appsettings.json",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\appsettings.json",
+              "RelativeToolTip": "Company.app\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T16:33:25.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Program.cs",
+              "RelativeDocumentMoniker": "Company.app\\Program.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\Program.cs",
+              "RelativeToolTip": "Company.app\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:53:19.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompanyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\CompanyDBContext.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Context\\CompanyDBContext.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Context\\CompanyDBContext.cs",
+              "RelativeToolTip": "Company.Data\\Context\\CompanyDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:45:38.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\Department.cs",
+              "RelativeToolTip": "Company.Data\\Models\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:41:30.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Company.Data\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:20:38.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "Company.Data\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Models\\Employees.cs",
+              "RelativeToolTip": "Company.Data\\Models\\Employees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:13:50.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Company.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Company.Data.csproj",
+              "RelativeDocumentMoniker": "Company.Data\\Company.Data.csproj",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.Data\\Company.Data.csproj",
+              "RelativeToolTip": "Company.Data\\Company.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-31T14:13:27.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "company.services.csproj",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.services\\company.services.csproj",
+              "RelativeDocumentMoniker": "company.services\\company.services.csproj",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.services\\company.services.csproj",
+              "RelativeToolTip": "company.services\\company.services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-31T14:09:07.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "company.repo.csproj",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\company.repo.csproj",
+              "RelativeDocumentMoniker": "company.repo\\company.repo.csproj",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.repo\\company.repo.csproj",
+              "RelativeToolTip": "company.repo\\company.repo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-31T14:08:52.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.services\\Class1.cs",
+              "RelativeDocumentMoniker": "company.services\\Class1.cs",
+              "ToolTip": "C:\\Users\\youse\\source\\repos\\Company.Web\\company.services\\Class1.cs",
+              "RelativeToolTip": "company.services\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T14:08:30.2Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
