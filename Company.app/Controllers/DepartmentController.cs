@@ -54,7 +54,7 @@ namespace Company.app.Controllers
                 return RedirectToAction("NotFoundPage",null,"Home");
             return View(viewName,department);
         }
-
+        //ss
 
         [HttpGet]
         public IActionResult Update(int? id)
