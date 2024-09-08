@@ -1,0 +1,27 @@
+﻿@model DepartmentDto
+@{
+    ViewData["Title"] = "Edit";
+}
+<h2>Department Edit </h2>
+<br />
+<br />
+
+<form asp-action="Update" asp-controller="Department" method="post">
+    <input type="hidden"  asp-for="Id" />
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div>
+        <label asp-for="Code"></label>
+        <input asp-for="Code" class="form-control" />
+    </div>
+    <input type="submit" value="Update" class="btn btn-success" />
+
+@*     <in type="submit" class="btn btn-success">Save Changes</in>
+ *@</form>
+
+
+
+
+

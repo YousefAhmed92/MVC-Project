@@ -13,7 +13,6 @@ namespace Company.Data.Contects.Configuration
     {
         public void Configure(EntityTypeBuilder<Employees> builder)
         {
-            builder.Property(x => x.Name).IsRequired().HasMaxLength(20);
         }
     }
 }

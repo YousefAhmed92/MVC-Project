@@ -18,12 +18,18 @@ namespace company.repo.Repo
             _context = context;
         }
         public void Add(T entity)
-            => _context.Add(entity);
+        {
+            _context.Set<T>().Add(entity);
+            //_context.SaveChanges();
+
+        }        
        
-
         public void Delete(T entity)
-           => _context.Remove(entity);
+        {
+            _context.Remove(entity);
+            //_context.SaveChanges();
 
+        }
 
         public IEnumerable<T> GetAll()
             => _context.Set<T>().ToList();
@@ -32,7 +38,10 @@ namespace company.repo.Repo
             => _context.Set<T>().Find(id);
 
         public void Update(T entity)
-            => _context.Update(entity);
+        {
+            _context.Set<T>().Update(entity);
+            //_context.SaveChanges();
+        }
     }
 
 }

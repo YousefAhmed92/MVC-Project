@@ -11,6 +11,6 @@ namespace Company.Data.Models
         public string Name { get; set; }
         public int Code { get; set; }
 
-        public ICollection<Employees> employees { get; set; }
+        public ICollection<Employees>? employees { get; set; }
     }
 }

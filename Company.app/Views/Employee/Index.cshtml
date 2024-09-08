@@ -1,0 +1,86 @@
+﻿@model IEnumerable<EmployeeDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<a asp-controller="Employee" asp-action="Create" class="btn btn-info">Create New Employee</a>
+
+<br />
+
+<div class="row justify-content-center align-items-center mt-5">
+    <form class="row col-8 offset-2" asp-action="Index">
+        <div class="col-8">
+            <input type="text" class="form-control" name="SearchInput" placeholder="Search by name" />
+        </div>
+        <div class="col-4">
+            <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+    </form>
+</div>
+
+<br />
+
+@if (Model.Any())
+{
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(e => e.Name)</th>
+                <th>@Html.DisplayNameFor(e => e.Image)</th>
+                <th>@Html.DisplayNameFor(e => e.Address)</th>
+                <th>@Html.DisplayNameFor(e => e.Salary)</th>
+                <th>@Html.DisplayNameFor(e => e.Email)</th>
+                <th>@Html.DisplayNameFor(e => e.PhoneNumber)</th>
+                <th>Department</th> 
+                <th>@Html.DisplayNameFor(e => e.HiringDate)</th>
+                <th>@Html.DisplayNameFor(e => e.CreatedAt)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.Name</td>
+                    <td>
+                        <img src="~/Files/Images/@emp.ImageUrl" height="50" width="50" alt="" />
+                    </td>
+                    <td>@emp.Address</td>
+                    <td>@emp.Salary</td>
+                    <td>@emp.Email</td>
+                    <td>@emp.PhoneNumber</td>
+                    <td>
+                        @{
+                            var departments = (IEnumerable<DepartmentDto>)ViewBag.Departments;
+                            var department = departments.FirstOrDefault(d => d.Id == emp.DepartmentId);
+                            @department?.Name
+                         }
+                    </td>
+                    <td>@emp.HiringDate</td>
+                    <td>@emp.CreatedAt</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@emp.Id" class="btn btn-warning">
+                            <i class="fas fa-eye"></i> Details
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@emp.Id" class="btn btn-success">
+                            <i class="fas fa-edit"></i> Update
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@emp.Id" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h2>There are no employees here</h2>
+}
