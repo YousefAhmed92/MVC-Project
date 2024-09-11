@@ -5,6 +5,8 @@ using company.services.Mapping;
 using company.services.Mapping.Employee;
 using company.services.Services;
 using Company.Data.Contexts;
+using Company.Data.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.app
@@ -34,6 +36,32 @@ namespace Company.app
             builder.Services.AddAutoMapper(x => x.AddProfile(new EmployeeProfile()));
             builder.Services.AddAutoMapper(x => x.AddProfile(new DepartmentProfile()));
 
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(config =>
+            {
+                config.Password.RequiredUniqueChars = 2;
+                config.Password.RequireUppercase = true;
+                config.Password.RequireLowercase = true;
+                config.Password.RequireNonAlphanumeric = true;
+                config.Password.RequiredLength = 8;
+                config.User.RequireUniqueEmail = true;
+                config.Lockout.AllowedForNewUsers = true;
+                config.Lockout.MaxFailedAccessAttempts = 2;
+                config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+            }).AddEntityFrameworkStores<CompanyDBContext>().AddDefaultTokenProviders() ;
+
+
+            builder.Services.ConfigureApplicationCookie(option =>
+            {
+                option.Cookie.HttpOnly = true;
+                option.ExpireTimeSpan = TimeSpan.FromMinutes(15);
+                option.SlidingExpiration = true;
+                option.LoginPath = "/Account/Login";
+                option.LogoutPath = "/Account/Logout";
+                option.AccessDeniedPath = "/Account/AccessDenied";
+                option.Cookie.Name = "yousef Cookies";
+                option.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                option.Cookie.SameSite = SameSiteMode.Strict;
+            });
 
 
 
@@ -51,6 +79,7 @@ namespace Company.app
             app.UseStaticFiles();
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

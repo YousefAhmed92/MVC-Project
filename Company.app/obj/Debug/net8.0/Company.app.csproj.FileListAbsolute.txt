@@ -258,3 +258,10 @@ C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.genruntimeconfig.cache
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\ref\Company.app.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.sourcelink.json

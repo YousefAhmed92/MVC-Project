@@ -7,6 +7,11 @@
 @*  <br @{
     var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
 } *@
+
+@* @{
+    var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
+} *@
+
 <form asp-action="Create" method="post" enctype="multipart/form-data">
 
     <div class="form-group">
@@ -55,6 +60,11 @@
             <input type="text" class="form-control" value="@department?.Name" readonly />
         }
     </div>
+  @*   <div class="form-group" >
+        <label class="col-form-label" asp-for="DepartmentId"></label>
+        <input class="form-control" asp-items="@departments" asp-for="DepartmentId" readonly>
+    </div> *@
+    //saaaaaa
 
 
     <div class="form-group">

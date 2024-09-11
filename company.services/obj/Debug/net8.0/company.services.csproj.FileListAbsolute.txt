@@ -15,3 +15,4 @@ C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\compan
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\refint\company.services.dll
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.pdb
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\ref\company.services.dll
+C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.sourcelink.json

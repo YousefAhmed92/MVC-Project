@@ -1,10 +1,12 @@
 ﻿using Company.Data.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Company.Data.Contexts
 {
-    public class CompanyDBContext : DbContext
+    public class CompanyDBContext : IdentityDbContext<ApplicationUser>
     {
         public CompanyDBContext()
         {

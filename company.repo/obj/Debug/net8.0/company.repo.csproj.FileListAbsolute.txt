@@ -13,3 +13,4 @@ C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.re
 C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\refint\company.repo.dll
 C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.pdb
 C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\ref\company.repo.dll
+C:\Users\youse\source\repos\Company.Web\company.repo\obj\Debug\net8.0\company.repo.sourcelink.json

@@ -126,6 +126,16 @@ namespace company.services.Services
         }
         public void Update(EmployeeDto employeeDto)
         {
+            //var name = employeeDto.Name;
+            //var PhoneNumber = employeeDto.PhoneNumber;
+            //var salary = employeeDto.Salary;
+            //var address = employeeDto.Address;
+            //var img = employeeDto.Image;
+            //var imgURL = employeeDto.ImageUrl;
+            //var deptId= employeeDto.DepartmentId;
+            //var date = employeeDto.HiringDate;
+            //var createdAt = DateTime.Now;
+
             var mapping = _mapper.Map<Employees>(employeeDto);
             if (mapping is null)
                 throw new Exception("department is not found");

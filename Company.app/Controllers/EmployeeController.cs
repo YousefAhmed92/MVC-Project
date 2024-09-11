@@ -44,6 +44,7 @@ namespace Company.app.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(EmployeeDto employees)
         {
 
@@ -81,14 +82,6 @@ namespace Company.app.Controllers
             return Details(Id, "Update");
         }
 
-        //[HttpPost]
-        //public IActionResult Update(int? id , EmployeeDto employeeDto)
-        //{
-        //    if(employeeDto.Id != id.Value)
-        //        return RedirectToAction("NotFoundPage", null, "Home");
-        //    _employeeService.Update(employeeDto);
-        //    return RedirectToAction(nameof(Index));
-        //}
         [HttpPost]
         public IActionResult Update(int? id, EmployeeDto employeeDto)
         {
@@ -103,23 +96,23 @@ namespace Company.app.Controllers
             if (employeeDto.Id == null)
                 return NotFound();
 
-            if (employeeDto.Image != null && employeeDto.Image.Length > 0)
-            {
-                var fileName = Path.GetFileName(employeeDto.Image.FileName);
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Files/Images", fileName);
+            //if (employeeDto.Image != null && employeeDto.Image.Length > 0)
+            //{
+            //    var fileName = Path.GetFileName(employeeDto.Image.FileName);
+            //    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Files/Images", fileName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    employeeDto.Image.CopyTo(stream);
-                }
+            //    using (var stream = new FileStream(filePath, FileMode.Create))
+            //    {
+            //        employeeDto.Image.CopyTo(stream);
+            //    }
 
-                employeeDto.ImageUrl = fileName;
-            }
-            else
-            {
-                // Retain the existing image URL
-                employeeDto.ImageUrl = employeeDto.ImageUrl;
-            }
+            //    employeeDto.ImageUrl = fileName;
+            //}
+            //else
+            //{
+            //    // Retain the existing image URL
+            //    employeeDto.ImageUrl = employeeDto.ImageUrl;
+            //}
 
             _employeeService.Update(employeeDto);
             return RedirectToAction(nameof(Index));
@@ -140,3 +133,4 @@ namespace Company.app.Controllers
 
     }
 }
+//ss

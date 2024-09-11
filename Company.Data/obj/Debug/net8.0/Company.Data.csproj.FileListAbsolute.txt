@@ -12,3 +12,4 @@ C:\Users\youse\source\repos\Company.Web\Company.Data\obj\Debug\net8.0\refint\Com
 C:\Users\youse\source\repos\Company.Web\Company.Data\obj\Debug\net8.0\Company.Data.pdb
 C:\Users\youse\source\repos\Company.Web\Company.Data\obj\Debug\net8.0\Company.Data.genruntimeconfig.cache
 C:\Users\youse\source\repos\Company.Web\Company.Data\obj\Debug\net8.0\ref\Company.Data.dll
+C:\Users\youse\source\repos\Company.Web\Company.Data\obj\Debug\net8.0\Company.Data.sourcelink.json
