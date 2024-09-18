@@ -409,16 +409,20 @@
       "PackagePath": "staticwebassets\\Files\\fonts\\poppins\\roboto-condensed-v16-latin-regular.woff2"
     },
     {
-      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\ForgetPassword.css",
+      "PackagePath": "staticwebassets\\css\\ForgetPassword.css"
     },
     {
-      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
+      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\style.css.map",
-      "PackagePath": "staticwebassets\\css\\style.css.map"
+      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\SignUp.css",
+      "PackagePath": "staticwebassets\\css\\SignUp.css"
+    },
+    {
+      "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\SignUp.css.map",
+      "PackagePath": "staticwebassets\\css\\SignUp.css.map"
     },
     {
       "Id": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\favicon.ico",

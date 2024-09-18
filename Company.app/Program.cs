@@ -8,6 +8,7 @@ using Company.Data.Contexts;
 using Company.Data.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 namespace Company.app
 
@@ -47,6 +48,7 @@ namespace Company.app
                 config.Lockout.AllowedForNewUsers = true;
                 config.Lockout.MaxFailedAccessAttempts = 2;
                 config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+
             }).AddEntityFrameworkStores<CompanyDBContext>().AddDefaultTokenProviders() ;
 
 
@@ -58,7 +60,7 @@ namespace Company.app
                 option.LoginPath = "/Account/Login";
                 option.LogoutPath = "/Account/Logout";
                 option.AccessDeniedPath = "/Account/AccessDenied";
-                option.Cookie.Name = "yousef Cookies";
+                option.Cookie.Name = "yousefCookies";
                 option.Cookie.SecurePolicy = CookieSecurePolicy.Always;
                 option.Cookie.SameSite = SameSiteMode.Strict;
             });
@@ -79,13 +81,14 @@ namespace Company.app
             app.UseStaticFiles();
 
             app.UseRouting();
+
             app.UseAuthentication();
 
             app.UseAuthorization();
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Account}/{action=SignUp}");
 
             app.Run();
         }

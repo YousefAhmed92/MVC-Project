@@ -13,6 +13,6 @@ namespace Company.Data.Models
         public string SecondName { get; set; }
 
         public bool IsActive { get; set; }
-        public string LastName { get; set; }
+        //public string? LastName { get; set; }
     }
 }

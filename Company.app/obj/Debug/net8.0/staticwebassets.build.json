@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FgdjiXVbLnNGdTzUIa803/IZW5gnKznxyb9oePgZTk0=",
+  "Hash": "ALxwWZ3/Ot006Drqvo65ui9SMuqvnFpaKsGb5IgODaw=",
   "Source": "Company.app",
   "BasePath": "_content/Company.app",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Company.app.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\ForgetPassword.css",
       "SourceId": "Company.app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\",
       "BasePath": "_content/Company.app",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/ForgetPassword.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,15 +71,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\ForgetPassword.css"
     },
     {
-      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\Login.css",
       "SourceId": "Company.app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\",
       "BasePath": "_content/Company.app",
-      "RelativePath": "css/style.css",
+      "RelativePath": "css/Login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -90,15 +90,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css"
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\style.css.map",
+      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\SignUp.css",
       "SourceId": "Company.app",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\",
       "BasePath": "_content/Company.app",
-      "RelativePath": "css/style.css.map",
+      "RelativePath": "css/SignUp.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\SignUp.css"
+    },
+    {
+      "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\css\\SignUp.css.map",
+      "SourceId": "Company.app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\",
+      "BasePath": "_content/Company.app",
+      "RelativePath": "css/SignUp.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SignUp.css.map"
     },
     {
       "Identity": "C:\\Users\\youse\\source\\repos\\Company.Web\\Company.app\\wwwroot\\favicon.ico",

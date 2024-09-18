@@ -1,6 +1,57 @@
-﻿
+﻿@model SignUpViewModel
 @{
     ViewData["Title"] = "SignUp";
     Layout = "~/Views/Shared/_AuthLayout.cshtml";
 }
+<section class="sign-in">
+    <div class="container">
+        <div class="signin-content">
+            @* <div class="signin-image">
+                <figure><img src="~/Files/Images/signup-image.jpg" alt="sing up image"></figure>
+                <a href="#" class="signup-image-link">Create an account</a>
+            </div> *@
 
+            <div class="signin-form">
+
+                <form asp-action="SignUp" method="post">
+                    <h2 class="form-title" style="color:navy">create account </h2>
+
+                    <div asp-validation-summary="All"></div>
+
+
+                    <input class="input" type="text" placeholder="your first name" asp-for="FirstName" required />
+                    <span asp-validation-for="FirstName"></span>
+                    <br />
+
+
+                    <input class="input" type="text" placeholder="your last name" asp-for="SecondName" required />
+                    <span asp-validation-for="SecondName"></span>
+                    <br />
+
+               
+                    <input class="input" type="email" placeholder="email" asp-for="Email" required />
+                    <span asp-validation-for="Email"></span>
+                    <br />
+
+                    <input class="input" type="password" placeholder="Password" asp-for="Password" required />
+                    <span asp-validation-for="Password"></span>
+                    <br />
+
+                    <input class="input" type="password" placeholder="your first name" asp-for="ConfirmPassword" required />
+                    <span asp-validation-for="ConfirmPassword"></span>
+                    <br />
+
+                    <input class="submit" type="submit" value="SignUp" />
+                    <p style="color:navy">have an account ? <a asp-action="Login"> login now</a></p>
+
+                </form>
+                <link rel="stylesheet" href="@Url.Content("~/css/SignUp.css")" />
+
+
+               
+          
+
+            </div>
+        </div>
+    </div>
+</section>

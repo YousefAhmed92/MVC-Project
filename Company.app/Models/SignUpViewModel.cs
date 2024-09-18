@@ -9,7 +9,7 @@ namespace Company.app.Models
         public string FirstName { get; set; }
         [Required(ErrorMessage = "last name is required")]
 
-        public string LastName { get; set; }
+        public string SecondName { get; set; }
         [EmailAddress(ErrorMessage ="invaild format for email")]
         public string Email { get; set; }
 
