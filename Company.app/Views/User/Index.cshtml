@@ -1,0 +1,70 @@
+﻿@model IEnumerable<ApplicationUser>
+
+
+
+@{
+    ViewData["Title"] = "users";
+}
+@* <a asp-controller="Employee" asp-action="Create" class="btn btn-info">Create New Employee</a>
+ *@
+<br />
+
+ <form class="my-3" asp-action="Index" asp-controller="User">
+     <div class="row">
+        <div class="col-8">
+            <input type="text" class="form-control" name="SearchInput" placeholder="Search by Email" />
+        </div>
+        <div class="col-4">
+            <input type="submit" value="Search" class="btn btn-success" />
+        </div>
+
+     </div>
+    </form>
+
+<br />
+
+@if (Model.Any())
+{
+    <table class="table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(u => u.Id)</th>
+                <th>@Html.DisplayNameFor(u => u.FirstName)</th>
+                <th>@Html.DisplayNameFor(u => u.Email)</th>
+                <th>Details</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.Email</td>
+                    
+                    <td>
+                        <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-warning">
+                            <i class="fas fa-eye"></i> Details
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@user.Id" class="btn btn-success">
+                            <i class="fas fa-edit"></i> Update
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger">
+                            <i class="fas fa-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h2>There are no users here</h2>
+}

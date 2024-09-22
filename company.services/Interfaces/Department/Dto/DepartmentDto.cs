@@ -15,8 +15,6 @@ namespace company.services.Interfaces.Department.Dto
         public int Code { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public bool IsDeleted { get; set; } = false;
-
-
         public ICollection<EmployeeDto>? employees { get; set; } = new LinkedList<EmployeeDto>();
 
     }

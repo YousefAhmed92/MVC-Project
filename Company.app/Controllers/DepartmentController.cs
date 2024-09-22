@@ -1,9 +1,13 @@
 ﻿using company.services.Interfaces;
 using company.services.Interfaces.Department.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Company.app.Controllers
 {
+
+    [Authorize]
+
     public class DepartmentController : Controller
     {
         private readonly IDepartmentService _departmentService;
@@ -33,8 +37,6 @@ namespace Company.app.Controllers
                 if (ModelState.IsValid)
                 {
                     _departmentService.Add(departmentDto);
-                    //TempData["temp"] = "hello from employee page (temp) ";
-
                     return RedirectToAction(nameof(Index));
                 }
                 ModelState.AddModelError("DepartmentError", "Please correct the errors and try again.");

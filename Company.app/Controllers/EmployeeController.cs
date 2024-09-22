@@ -2,12 +2,16 @@
 using company.services.Interfaces.Department.Dto;
 using company.services.Interfaces.Employee.Dto;
 using Company.Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Company.app.Controllers
 {
+    [Authorize]
+
+
     public class EmployeeController : Controller
     {
         private readonly IEmployeeService _employeeService;
@@ -21,15 +25,10 @@ namespace Company.app.Controllers
 
         public IActionResult Index(string SearchInput)
         {
-
-
-            ViewBag.Departments = _departmentService.GetAll().ToList();
-
-
+            ViewBag.Departments = _departmentService.GetAll();
             IEnumerable<EmployeeDto> employees = new List<EmployeeDto>();
             if (string.IsNullOrEmpty(SearchInput))
                 employees = _employeeService.GetAll();
-
             else
                 employees = _employeeService.GetEmployeeByName(SearchInput);
             return View(employees);
@@ -40,14 +39,12 @@ namespace Company.app.Controllers
         {
             ViewBag.Departments = _departmentService.GetAll();
             return View();
-
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(EmployeeDto employees)
         {
-
             try
             {
                 if(ModelState.IsValid)
@@ -56,7 +53,6 @@ namespace Company.app.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 return View(employees);
-
             }
             catch (Exception ex)
             {
@@ -66,14 +62,13 @@ namespace Company.app.Controllers
 
         public IActionResult Details(int id , string viewName = "Details" )
         {
-            ViewBag.Departments = _departmentService.GetAll().ToList();
+            ViewBag.Departments = _departmentService.GetAll();
+
 
             var employees = _employeeService.GetById(id);
-
             if (employees is null)
                 return RedirectToAction("NotFoundPage", null, "Home");
             return View(viewName, employees);
-
         }
 
         [HttpGet]

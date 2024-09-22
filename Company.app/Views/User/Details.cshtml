@@ -1,0 +1,40 @@
+﻿@model ApplicationUser
+
+<h1>User Details</h1>
+
+
+<br />
+<br />
+
+<div class="row">
+    <div class="col-12">
+
+        <div class="form-group">
+            <label asp-for="@Model.FirstName" class="col-form-label"></label>
+            <input asp-for="@Model.FirstName" class="form-control" readonly/>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="@Model.Email" class="col-form-label"></label>
+            <input asp-for="@Model.Email" class="form-control" readonly />
+        </div>
+
+        <br />
+
+        <a class="btn btn-success" asp-action="Index" > Back to users</a>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+

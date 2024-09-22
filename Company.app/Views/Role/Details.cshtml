@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model RoleViewModel
+
+<h2>Role Details</h2>
+
+<br />
+
+<div>
+    <partial name="PartialView/DetailsDeletePartialView" />
+</div>
+
+<div>
+
+    <a asp-action="Update" asp-route-id="Id">Update</a>
+    <a asp-action="Index" asp-route-id="Id">back to roles</a>
+
+</div>

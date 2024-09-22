@@ -86,6 +86,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/AddOrRemoveUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZGRPclJlbW92ZVVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/PartialView/CreateEditPartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxQYXJ0aWFsVmlld1xDcmVhdGVFZGl0UGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/PartialView/DetailsDeletePartialView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxQYXJ0aWFsVmlld1xEZXRhaWxzRGVsZXRlUGFydGlhbFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/Role/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/youse/source/repos/Company.Web/Company.app/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +124,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/youse/source/repos/Company.Web/Company.app/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/User/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/youse/source/repos/Company.Web/Company.app/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/youse/source/repos/Company.Web/Company.app/Views/_ViewImports.cshtml]

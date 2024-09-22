@@ -1,5 +1,9 @@
 ﻿@model IEnumerable<EmployeeDto>
 
+@* @{
+    var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
+} *@
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -53,11 +57,12 @@
                     <td>@emp.PhoneNumber</td>
                     <td>
                         @{
-                            var departments = (IEnumerable<DepartmentDto>)ViewBag.Departments;
-                            var department = departments.FirstOrDefault(d => d.Id == emp.DepartmentId);
-                            @department?.Name
-                         }
+                            var departments = ViewBag.Departments as List<DepartmentDto>;
+                            var department = departments?.FirstOrDefault(d => d.Id == emp.DepartmentId);
+                        }
+                        @department.Name
                     </td>
+
                     <td>@emp.HiringDate</td>
                     <td>@emp.CreatedAt</td>
                     <td>

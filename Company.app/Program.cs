@@ -54,7 +54,7 @@ namespace Company.app
 
             builder.Services.ConfigureApplicationCookie(option =>
             {
-                option.Cookie.HttpOnly = true;
+                option.Cookie.HttpOnly = false;
                 option.ExpireTimeSpan = TimeSpan.FromMinutes(15);
                 option.SlidingExpiration = true;
                 option.LoginPath = "/Account/Login";

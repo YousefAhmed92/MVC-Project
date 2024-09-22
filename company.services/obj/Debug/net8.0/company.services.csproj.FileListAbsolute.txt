@@ -10,9 +10,9 @@ C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\compan
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.AssemblyInfoInputs.cache
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.AssemblyInfo.cs
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.csproj.CoreCompileInputs.cache
+C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.sourcelink.json
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company..B422D044.Up2Date
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.dll
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\refint\company.services.dll
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.pdb
 C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\ref\company.services.dll
-C:\Users\youse\source\repos\Company.Web\company.services\obj\Debug\net8.0\company.services.sourcelink.json

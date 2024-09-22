@@ -6,9 +6,13 @@ C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Company.app
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Company.app.runtimeconfig.json
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Company.app.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Company.app.pdb
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Humanizer.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Build.dll
@@ -32,6 +36,9 @@ C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.E
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -241,6 +248,7 @@ C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.RazorAssemblyInfo.cache
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.RazorAssemblyInfo.cs
+C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.sourcelink.json
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\staticwebassets\msbuild.Company.app.Microsoft.AspNetCore.StaticWebAssets.props
@@ -257,11 +265,3 @@ C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\refint\Comp
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.pdb
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.genruntimeconfig.cache
 C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\ref\Company.app.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\AutoMapper.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\youse\source\repos\Company.Web\Company.app\obj\Debug\net8.0\Company.app.sourcelink.json

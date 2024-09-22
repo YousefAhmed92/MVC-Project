@@ -1,77 +1,123 @@
 ﻿@model EmployeeDto
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Employee Profile";
 }
-<h2>Employee Details </h2>
-<br />
-@*  <br @{
-    var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
-} *@
+<style>
+    body {
+        background-color: #F0EDCF;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-@* @{
-    var departments = new SelectList(ViewBag.Departments, nameof(Department.Id), nameof(Department.Name));
-} *@
+    /* Apply to all elements to handle padding and borders properly */
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
 
-<form asp-action="Create" method="post" enctype="multipart/form-data">
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+        min-height: calc(100vh - 150px); /* Ensure the container takes at least the full height minus the footer */
+    }
 
-    <div class="form-group">
-        <label class="col-form-label" asp-for="Name"></label>
-        <input type="text" asp-for="Name" class="form-control" readonly />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
+    .profile-card {
+        width: 60%;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px; /* Add margin to ensure space between card and footer */
+    }
 
-    <div class="form-group">
-        <label class="col-form-label" asp-for="Address"></label>
-        <input type="text" asp-for="Address" class="form-control"  readonly/>
-        <span asp-validation-for="Address" class="text-danger"></span>
-    </div>
+    .profile-header {
+        text-align: center;
+    }
 
-    <div class="form-group">
-        <label class="col-form-label" asp-for="Salary"></label>
-        <input type="text" asp-for="Salary" class="form-control" readonly />
-        <span asp-validation-for="Salary" class="text-danger"></span>
-    </div>
+    .profile-image {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
 
-    <div class="form-group">
-        <label class="col-form-label" asp-for="Email"></label>
-        <input type="email" asp-for="Email" class="form-control" readonly />
-        <span asp-validation-for="Email" class="text-danger"></span>
-    </div>
+    .profile-info {
+        margin-top: 25px;
+    }
 
-
-    <div class="form-group">
-        <label class="col-form-label" asp-for="PhoneNumber"></label>
-        <input type="text" asp-for="PhoneNumber" class="form-control" readonly />
-        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-    </div>
-
-    <div class="form-group">
-        <label class="col-form-label" asp-for="HiringDate"></label>
-        <input type="date" asp-for="HiringDate" class="form-control" readonly />
-        <span asp-validation-for="HiringDate" class="text-danger"></span>
-    </div>
-
-
-    <div class="form-group">
-        <label class="col-form-label">Department</label>
-        @{
-            var departments = (IEnumerable<DepartmentDto>)ViewBag.Departments;
-            var department = departments.FirstOrDefault(d => d.Id == Model.DepartmentId);
-            <input type="text" class="form-control" value="@department?.Name" readonly />
+        .profile-info div {
+            margin-bottom: 10px;
         }
+
+        .profile-info label {
+            font-weight: bold;
+            color: navy;
+            text-align: center;
+            word-spacing: 2px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+        }
+
+        .profile-info span {
+            display: block;
+            margin-top: 5px;
+            color: #555;
+        }
+
+
+
+
+</style>
+
+<div class="profile-container">
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="~/Files/Images/@Model.ImageUrl" alt="Employee Image" class="profile-image" />
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="profile-info">
+            <div>
+                <label>Address:</label>
+                <span>@Model.Address</span>
+            </div>
+
+            <div>
+                <label>Salary:</label>
+                <span>@Model.Salary</span>
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <span>@Model.Email</span>
+            </div>
+
+            <div>
+                <label>Phone Number:</label>
+                <span>@Model.PhoneNumber</span>
+            </div>
+
+            <div>
+                <label>Hiring Date:</label>
+                <span>@Model.HiringDate</span>
+            </div>
+
+            <div>
+                <label>Department:</label>
+                @if (ViewBag.Departments is List<DepartmentDto> departments)
+                {
+                    var department = departments.FirstOrDefault(d => d.Id == Model.DepartmentId);
+                    <span>@department?.Name</span>
+                }
+            </div>
+        </div>
+
+        <div class="profile-footer">
+            <a asp-action="Index">Back to List</a>
+        </div>
     </div>
-  @*   <div class="form-group" >
-        <label class="col-form-label" asp-for="DepartmentId"></label>
-        <input class="form-control" asp-items="@departments" asp-for="DepartmentId" readonly>
-    </div> *@
-    //saaaaaa
-
-
-    <div class="form-group">
-        <label class="col-form-label" asp-for="Image"></label>
-        <img src="~/Files/Images/@Model.ImageUrl" alt="Employee Image" class="img-fluid" width="250" height="250" />
-        <span asp-validation-for="Image" class="text-danger"></span>
-    </div>
-
-      <a asp-action="Index" class="btn btn-link">Back</a>
-</form>
+</div>

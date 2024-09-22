@@ -1,9 +1,11 @@
 using Company.app.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Company.app.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -32,6 +34,7 @@ namespace Company.app.Controllers
         {
             return View();
         }
+
 
     }
 }

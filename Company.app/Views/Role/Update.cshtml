@@ -1,0 +1,28 @@
+﻿@model RoleViewModel
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update Role</h1>
+<br />
+<div class="row">
+    <div class="col-6">
+        <form asp-action="Update" asp-controller="Role">
+            <input type="hidden" asp-for="Id" />
+
+            <partial name="PartialView/CreateEditPartialView" />
+
+            <div class="my-3">
+                <a class="btn btn-dark" asp-action="AddOrRemoveUsers" asp-controller="Role" asp-route-roleId="@Model.Id">manage roles</a>
+
+            </div>
+           
+            <input type="submit" value="Save" class="btn btn-light" />
+
+            <a asp-action="Index">  back to roles</a>
+
+        </form>
+
+    </div>
+</div>
+
